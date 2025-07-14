@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+
+@theme {
+    --font-Poppins: "Poppins", "sans-serif";
+    --font-sans: 'Open Sans', 'sans-serif';
+    --color-orange: #FF6A00;
+    --color-green: #008751;
+    --color-mint: #D7F3E4;
+  /* ... */
+
+}
+/* landing page styles */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
